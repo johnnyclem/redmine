@@ -1,9 +1,9 @@
 module Redmine
   module Info
     class << self
-      def app_name; 'Redmine' end
-      def url; 'http://www.redmine.org/' end
-      def help_url; 'http://www.redmine.org/guide' end
+      def app_name; 'Mind Diaper' end
+      def url; 'http://www.minddiaper.com/' end
+      def help_url; 'http://www.minddiaper.com/support' end
       def versioned_name; "#{app_name} #{Redmine::VERSION}" end
 
       def environment
