@@ -9,6 +9,9 @@ gem "builder"
 gem "minitest"
 gem "mysql", "~> 2.8.1"
 gem "taps"
+
+gem "unicorn"
+gem "capistrano"
 # Optional gem for LDAP authentication
 group :ldap do
   gem "net-ldap", "~> 0.3.1"
