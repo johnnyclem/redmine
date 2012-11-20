@@ -3,11 +3,11 @@
 # Examples for PostgreSQL and SQLite3 can be found at the end.
 
 production:
-  adapter:  mysql
+  adapter:  postgresql
   database: redmine
-  host:     $OPENSHIFT_DB_HOST
-  username: $OPENSHIFT_DB_USERNAME
-  password: $OPENSHIFT_DB_PASSWORD
+  host:     localhost
+  username: postgres
+  password: PI6_pies
   encoding: utf8
 
 development:
