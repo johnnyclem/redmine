@@ -11,11 +11,10 @@ production:
   encoding: utf8
 
 development:
-  adapter:  postgresql
-  database: redmine_development
+  adapter:  mysql
+  database: redmine
   host:     localhost
-  username: johnnyclem
-  password: "glowkin22"
+  username: root
   encoding: utf8
 
 # Warning: The database defined as "test" will be erased and

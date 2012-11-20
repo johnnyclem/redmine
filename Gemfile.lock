@@ -47,7 +47,7 @@ GEM
     mocha (0.13.0)
       metaclass (~> 0.0.1)
     multi_json (1.3.7)
-    mysql (2.9.0)
+    mysql (2.8.1)
     mysql2 (0.3.11)
     net-ldap (0.3.1)
     pg (0.14.1)
@@ -122,7 +122,7 @@ DEPENDENCIES
   jruby-openssl
   minitest
   mocha
-  mysql (~> 2.9.0)
+  mysql (~> 2.8.1)
   mysql2 (~> 0.3.11)
   net-ldap (~> 0.3.1)
   pg (>= 0.11.0)
