@@ -7,7 +7,7 @@ gem "coderay", "~> 1.0.6"
 gem "fastercsv", "~> 1.5.0", :platforms => [:mri_18, :mingw_18, :jruby]
 gem "builder"
 gem "minitest"
-gem "mysql"
+gem "mysql", "~> 2.9.0"
 
 # Optional gem for LDAP authentication
 group :ldap do
@@ -38,12 +38,6 @@ platforms :mri, :mingw do
 
   group :sqlite do
     gem "sqlite3"
-  end
-end
-
-platforms :mri_18, :mingw_18 do
-  group :mysql do
-    gem "mysql"
   end
 end
 

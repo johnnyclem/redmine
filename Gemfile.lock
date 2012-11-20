@@ -112,7 +112,7 @@ DEPENDENCIES
   jruby-openssl
   minitest
   mocha
-  mysql
+  mysql (~> 2.9.0)
   mysql2 (~> 0.3.11)
   net-ldap (~> 0.3.1)
   pg (>= 0.11.0)
