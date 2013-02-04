@@ -1,6 +1,6 @@
 source 'http://rubygems.org'
 
-gem 'rails', '3.2.6'
+gem 'rails', '3.2.11'
 gem 'prototype-rails', '3.2.1'
 gem "i18n", "~> 0.6.0"
 gem "coderay", "~> 1.0.6"
@@ -9,6 +9,7 @@ gem "builder"
 gem "minitest"
 gem "mysql", "~> 2.8.1"
 gem "taps"
+gem "turbolinks"
 
 gem "unicorn"
 gem "capistrano"
